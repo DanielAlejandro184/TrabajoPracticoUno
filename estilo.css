@@ -151,3 +151,48 @@ nav .primermenu .navizquierda .mail{
     color:#414545;
     text-decoration: none;
 }
+
+/* Sector izquierdo del segundo menu */
+
+.imagenlogo{
+    height: 100px;
+    background-color: white;
+}
+
+.logoyletras{
+    display:flex;  
+}
+
+.logodegiftify{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    left: 100px;
+    top: 20px;
+    margin-bottom: 20px;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    margin-right: -20px;
+    bottom: 20px;
+    background-color: white;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    color: #FC9647;
+}
+
+.inputbuscador{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid #BAB9B8; 
+    padding-left: 14px;
+    margin-left: 140px;
+    background-image: url(iconsearchnuevo.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 98%; 
+}
+
