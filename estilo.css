@@ -306,3 +306,16 @@ nav .primermenu .navizquierda .mail{
 main{
     padding-top: 270px;
 }
+
+/* Contenedor de la primer foto , clases y pseudoclases del mismo*/
+
+.primerdiv{
+    background-image: url(regalo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+    height: 750px;
+    width: 650px;
+    margin-right: 75px;
+}
