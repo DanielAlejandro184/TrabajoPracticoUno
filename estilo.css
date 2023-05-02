@@ -137,3 +137,17 @@ nav .primermenu .navizquierda .mail{
     display: flex;
     align-items: center;
 }
+
+/* Segundo menu del nav */
+
+.segundomenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.segundomenu a{
+    color:#414545;
+    text-decoration: none;
+}
