@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;    
 }
 
-* Header movil */
+/* Header movil */
 
 header{
     position: fixed;
@@ -18,15 +18,35 @@ header{
     background-color: white;
 }
 
-
 p , a , button , input{
     font-weight: bold;
     font-size: medium;   
 }
 
-
 section{
     display: flex;
     justify-content: center;
     padding-top: 50px;
+}
+
+
+/* Primer seccion del nav */
+
+.primermenu{
+    background-color: #2C3333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav .primermenu a , nav .primermenu p{
+    color: white;
+    text-decoration: none;    
+}
+
+nav .primermenu i{
+    color: white;
+    padding-right: 5px;
 }
