@@ -9,3 +9,24 @@
     padding: 0px;
     font-family: 'Poppins', sans-serif;    
 }
+
+* Header movil */
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+
+p , a , button , input{
+    font-weight: bold;
+    font-size: medium;   
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
