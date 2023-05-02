@@ -50,3 +50,43 @@ nav .primermenu i{
     color: white;
     padding-right: 5px;
 }
+
+/* Sector izquierdo del primer seccion de nav */
+
+.navizquierda{  
+    margin-left:30px ;
+    display: flex;
+    align-items: center;
+}
+
+.mitelefono{
+    font-size: 25px;
+    margin-left: 10px;
+    padding-left: 45px;
+}
+
+.telefono , .mail{
+    padding-left: 15px;
+}
+
+.telefono , .mail , .delivery , .idioma , .moneda{
+    font-family: 'Poppins', sans-serif;
+}
+
+.carta{
+    padding-left: 75px;
+    height: 20px;
+}
+
+.cartaefecto{
+    display: flex;
+    align-items: center;
+}
+.cartaefecto:hover , .deliveryefecto:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+nav .primermenu .navizquierda .mail{
+    text-decoration: underline;
+}
