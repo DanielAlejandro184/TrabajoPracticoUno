@@ -511,4 +511,15 @@ main{
     padding-top: 15px;
 }
 
+/* Link de registro */
+
+.registrate{
+    font-weight: bold;
+    font-size: medium; 
+    padding-top: 10px;
+    color: #FE741F;
+}
+
+
+
 
