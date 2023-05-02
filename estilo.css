@@ -255,3 +255,48 @@ nav .primermenu .navizquierda .mail{
 .tercermenulinks{
     margin-left: 20px;
 }
+
+/* Sector derecho del tercer menu */
+
+.botonfollow{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border:3px solid #dfdfdf;
+    border-radius: 8px;
+    transition: .5s;
+    cursor: pointer;
+    margin-right: 65px;
+    color: #414545;
+    transition: .5s;
+}
+
+.botonfollow i{
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.botonfollow:hover{
+    background-color: #fd9250cc;
+    color: white;
+    border: none;
+}
+
+.botonfollow:focus{
+    background-color: #FF731D;
+    color:white;
+    border: none;
+}
+
+.tercermenulinks a:hover{
+   color: #8E9091;
+   
+}
+
+.inputbuscador:focus{
+    outline: 1px solid  #b8b6b5;
+    background:none;
+}
