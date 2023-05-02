@@ -370,3 +370,38 @@ main{
 } 
 
 
+/* Etiqueta or continue,  clases y pseudoclases del mismo*/
+
+.contenedordelinea{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineasdecorativas{
+    display: inline-block;
+    position: relative;
+    color: #8E9091;
+}
+
+.lineasdecorativas::after, .lineasdecorativas::before{
+    content:'';
+    position: absolute;
+    width: 125px;
+    height: 3px;
+    background-color: #DFDFDF;
+    top: 0.7em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lineasdecorativas::before{
+    left: -155px;
+}
+
+.lineasdecorativas::after{
+    right: -155px;
+}
+
+
+
