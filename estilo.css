@@ -90,3 +90,50 @@ nav .primermenu i{
 nav .primermenu .navizquierda .mail{
     text-decoration: underline;
 }
+
+/* Sector derecho de la primer seccion del nav */
+
+.navderecha{ 
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.camion{
+    height: 18px;
+    color: white;
+    padding-right: 18px;
+}
+
+.deliveryefecto{
+    display: flex;
+    align-items: center;
+}
+
+.idioma{
+    height: 23px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.moneda{
+    padding-left: 23px;
+}
+
+.primerflechita{
+    padding-left: 8px;
+    margin-top: 3px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.segundaflechita{
+    font-size: 21px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
