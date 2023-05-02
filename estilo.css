@@ -431,5 +431,48 @@ main{
     width: 150px;
 }
 
+/* Contenedores y etiquetas del email y pass,  clases y pseudoclases de los mismos*/
+
+.contenedordeemailypass{
+    text-align: left;
+    padding-left: 45px;
+}
+
+.inputmail , .inputpassword{
+    border: 2px solid #BAB9B8; 
+    border-radius: 8px;
+    height: 55px;
+    width: 395px;
+    padding-left: 10px;
+}
+
+.inputpassword{
+    background-image: url(eye.svg);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: 95%;
+}
+
+.emailparrafo , .passwordparrafo { 
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.emailparrafo, .passwordparrafo , .olvi{
+    font-weight: bold;
+    color: #696C6D;
+    font-size: medium;
+    padding-left: 2px;
+}
+
+.inputpassword:focus{
+    background-image: url(eye-slash.svg);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: 95%;
+}
+
+
+
 
 
