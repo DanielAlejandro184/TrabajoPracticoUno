@@ -479,5 +479,15 @@ main{
     display: inline-block;
 }
 
+/* Contenedor de registro y sus respectivas partes */
+
+.contenedorderegistro{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
