@@ -403,5 +403,33 @@ main{
     right: -155px;
 }
 
+/* Boton email y numero,  clases y pseudoclases de los mismos*/
+
+.botonemailnumero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;   
+}
+
+.botonemail , .botoncelular{
+    border-style: hidden;
+    border-radius: 11px;
+    background-color: white;
+    color:#414545;
+    height: 50px;
+    transition: .5s;
+    cursor:pointer;
+}
+
+.botonemail{ 
+    width: 110px;
+    outline: none;
+}
+
+.botoncelular{
+    width: 150px;
+}
+
 
 
