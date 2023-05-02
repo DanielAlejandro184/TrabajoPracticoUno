@@ -233,3 +233,25 @@ nav .primermenu .navizquierda .mail{
 .favoritos , .basketlink{
     margin-right:  50px;
 }
+
+/* Tercer menu del nav */
+
+/* Sector izquierdo del tercer menu */
+
+.tercermenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tercermenulinks a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: #414545;
+}
+
+.tercermenulinks{
+    margin-left: 20px;
+}
