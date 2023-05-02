@@ -502,5 +502,13 @@ main{
     cursor: pointer;
 }
 
+/* Etiqueta no tienes una cuenta */
+
+.notienescuenta{
+    font-weight: bold;
+    color: #696C6D;
+    font-size: medium; 
+    padding-top: 15px;
+}
 
 
