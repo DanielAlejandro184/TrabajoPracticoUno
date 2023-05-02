@@ -489,5 +489,18 @@ main{
     align-items: center;
 }
 
+/* Boton sing in */
+
+.botonsingin{
+    border-style: hidden;
+    background-color: #FE741F;
+    color: white;
+    border-radius: 8px;
+    height: 60px;
+    width: 250px;
+    transition: .5s;
+    cursor: pointer;
+}
+
 
 
