@@ -190,7 +190,7 @@ nav .primermenu .navizquierda .mail{
     border: 2px solid #BAB9B8; 
     padding-left: 14px;
     margin-left: 140px;
-    background-image: url(iconsearchnuevo.svg);
+    background-image: url(imagenes/iconsearchnuevo.svg);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: 98%; 
@@ -447,7 +447,7 @@ main{
 }
 
 .inputpassword{
-    background-image: url(eye.svg);
+    background-image: url(imagenes/eye.svg);
     background-repeat: no-repeat;
     background-size: 23px;
     background-position: 95%;
@@ -466,7 +466,7 @@ main{
 }
 
 .inputpassword:focus{
-    background-image: url(eye-slash.svg);
+    background-image: url(imagenes/eye-slash.svg);
     background-repeat: no-repeat;
     background-size: 23px;
     background-position: 95%;
