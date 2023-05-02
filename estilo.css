@@ -196,3 +196,40 @@ nav .primermenu .navizquierda .mail{
     background-position: 98%; 
 }
 
+/* Sector derecho del segundo menu */
+
+.comprasyperfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.corazonicon{
+    height: 25px;
+    margin-right: 20px;
+}
+
+.favoritos{
+    color:#414545;
+}
+
+.micarro{
+    font-size:25px;
+    margin-right: 20px;
+}
+
+.basketlink{
+    margin-left: 5px;
+}
+
+.iconousuario{ 
+    height: 23px;
+    padding-bottom: 5px;
+    margin-right:  21px;
+    cursor: pointer;
+}
+
+.favoritos , .basketlink{
+    margin-right:  50px;
+}
