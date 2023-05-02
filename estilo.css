@@ -520,6 +520,42 @@ main{
     color: #FE741F;
 }
 
+/* Pseudoclases */
+
+.botonemail:hover , .botoncelular:hover , .botonsingin:hover{
+    background-color: #fd9250cc;
+    color: white;
+}
+
+.botonemail:focus , .botoncelular:focus{
+    background-color:  #FE741F;
+    color: white;
+}
+
+.olvi:hover{
+    color: #8E9091;
+    transition: .5s;
+}
+
+::placeholder { 
+    color: #8E9091;
+    opacity: 0.7;
+}
+
+.registrate:hover{
+    color:#fd9250;
+}
+
+.inputmail:focus , .inputpassword:focus{
+    outline: 1px solid  #b8b6b5;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+
+
 
 
 
