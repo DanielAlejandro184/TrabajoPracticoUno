@@ -319,3 +319,15 @@ main{
     width: 650px;
     margin-right: 75px;
 }
+
+/* Contenedor del formulario , clases y pseudoclases del mismo*/
+
+.segundodiv{
+    width: 500px;
+    height: 740px;
+    border: 3px solid #dfdfdf;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 75px;
+}
+
