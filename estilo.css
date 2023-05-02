@@ -472,7 +472,12 @@ main{
     background-position: 95%;
 }
 
+/* Etiqueta forget your password */
 
+.olvi{
+    padding-top: 10px;
+    display: inline-block;
+}
 
 
 
