@@ -331,3 +331,12 @@ main{
     margin-left: 75px;
 }
 
+/* Etiqueta Signin */
+
+.titulo1{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
