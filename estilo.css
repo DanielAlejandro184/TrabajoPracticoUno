@@ -300,3 +300,9 @@ nav .primermenu .navizquierda .mail{
     outline: 1px solid  #b8b6b5;
     background:none;
 }
+
+/* Main de la pagina */
+
+main{
+    padding-top: 270px;
+}
